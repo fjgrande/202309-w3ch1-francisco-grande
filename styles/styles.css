@@ -1,0 +1,32 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+h1,
+body,
+main,
+form {
+  text-align: center;
+  font-family: "Montserrat";
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.form-group {
+  border:solid
+  margin: 10px;
+  padding: 10px;
+  gap: 15px;
+}
+
+textarea {
+  box-sizing: border-box;
+}
+
+.off {
+  display: none;
+}
